@@ -25,6 +25,7 @@ Installing 'macchanger' (if not already installed):
 ```bash
 sudo apt update
 sudo apt install macchanger -y
+```
 
 ---
 
