@@ -31,15 +31,17 @@ sudo apt install macchanger -y
 
 ## ⚙️ Install
 
+```bash
 git clone https://github.com/your-username/potation.git
 cd potation
 chmod +x potation.sh
+```
 
 ---
 
 ## 🚀 Usage
 
-sudo ./potation.sh [options]
+`sudo ./potation.sh [options]`
 
 ## 🔧 Available flags
 
@@ -56,26 +58,26 @@ sudo ./potation.sh [options]
 ## 📌 Examples
 
 - Changes MAC and hostname every 1 minute
-sudo ./potation.sh
+`sudo ./potation.sh`
 
 - Change MAC and hostname every 5 minutes:
-sudo ./potation.sh -t 5
+`sudo ./potation.sh -t 5`
 
 - Only Mac address change every 2 minutes:
-sudo ./potation.sh -m -t 2
+`sudo ./potation.sh -m -t 2`
 
 - Only hostname change:
-sudo ./potation.sh -h
+`sudo ./potation.sh -h`
 
 - Reset and return to the original state:
-sudo ./potation.sh -r
+`sudo ./potation.sh -r`
 
 ---
 
 ## ⚠️ Important
 
-Changing the MAC address may lead to disconnection on some networks.
-Frequent hostname changes can be detected by the DHCP server.
+- Changing the MAC address may lead to disconnection on some networks.
+- Frequent hostname changes can be detected by the DHCP server.
 
 ---
 
