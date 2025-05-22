@@ -40,7 +40,7 @@ chmod +x potation.sh
 
 sudo ./potation.sh [options]
 
-## 🔧 Доступные флаги
+## 🔧 Available flags
 
 | Flag | Description |
 | ------------ | ----------------------------------------------------------- |
@@ -52,7 +52,7 @@ sudo ./potation.sh [options]
 
 ---
 
-## 📌 Примеры
+## 📌 Examples
 
 - Changes MAC and hostname every 1 minute
 sudo ./potation.sh
