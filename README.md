@@ -6,7 +6,7 @@ A Tool for Kali Linux that allows you to automatically **change the MAC address 
 
 ## 🛡️ Opportunities
 
-- Automatic change of MAC address
+- 🔁 Automatic change of MAC address
 - 🔁 Automatic hostname change
 - ⏱️ Configurable shift interval (default is 1 minute)
 — 🔓 The ability to disable and restore the original settings
@@ -32,7 +32,7 @@ sudo apt install macchanger -y
 ## ⚙️ Install
 
 ```bash
-git clone https://github.com/your-username/potation.git
+git clone https://github.com/step8rother/potation.git
 cd potation
 chmod +x potation.sh
 ```
@@ -57,13 +57,13 @@ chmod +x potation.sh
 
 ## 📌 Examples
 
-- Changes MAC and hostname every 1 minute
+- Changes MAC and hostname every 1 minute:
 `sudo ./potation.sh`
 
 - Change MAC and hostname every 5 minutes:
 `sudo ./potation.sh -t 5`
 
-- Only Mac address change every 2 minutes:
+- Only MAC address change every 2 minutes:
 `sudo ./potation.sh -m -t 2`
 
 - Only hostname change:
